@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "Search by Image on Google",
+	"version": "1.0",
+
+	"description": "Allows reverse image searching on Google by right clicking images.",
+	
+	"background": {
+		"scripts": ["background.js"]
+	},
+	
+	"permissions": [
+		"contextMenus"
+	],
+	
+	"icons": {
+		"48": "icon.png",
+		"96": "icon@2x.png"
+	}
+}
