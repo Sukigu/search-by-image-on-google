@@ -1,15 +1,21 @@
-chrome.contextMenus.create({
+browser.contextMenus.create({
 	id: "googleimagesearch-action",
 	title: "Search Image on Google",
 	contexts: ["image"]
 });
 
-chrome.contextMenus.onClicked.addListener(function(info, tab) {
+browser.contextMenus.onClicked.addListener(function(info, tab) {
 	if (info.menuItemId === "googleimagesearch-action") {
-		browser.tabs.create({
-			"url": "https://www.google.com/searchbyimage?image_url=" + info.srcUrl,
-			"active": false,
-			"index": tab.index + 1
+		var getPreference = browser.storage.sync.get({
+			openinbackground: true
+		});
+
+		getPreference.then(function(result) {
+			browser.tabs.create({
+				"url": "https://www.google.com/searchbyimage?image_url=" + info.srcUrl,
+				"active": !result.openinbackground,
+				"index": tab.index + 1
+			});
 		});
 	}
 });

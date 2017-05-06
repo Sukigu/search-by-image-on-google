@@ -1,20 +1,31 @@
 {
 	"manifest_version": 2,
 	"name": "Search by Image on Google",
-	"version": "1.0",
+	"version": "1.1",
 
-	"description": "Allows reverse image searching on Google by right clicking images.",
+	"description": "Allows reverse image searching on Google by right clicking on an image.",
 	
 	"background": {
 		"scripts": ["background.js"]
 	},
 	
 	"permissions": [
-		"contextMenus"
+		"contextMenus",
+		"storage"
 	],
 	
 	"icons": {
-		"48": "icon.png",
-		"96": "icon@2x.png"
+		"48": "icons/icon.png",
+		"96": "icons/icon@2x.png"
+	},
+
+	"options_ui": {
+		"page": "options.html"
+	},
+
+	"applications": {
+		"gecko": {
+			"id": "{1d6267dd-4b37-459a-84da-a5d2580daa6a}"
+		}
 	}
 }
