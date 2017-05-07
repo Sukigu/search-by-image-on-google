@@ -1,0 +1,17 @@
+{
+	"extensionName": {
+		"message": "Pesquisa por imagem no Google"
+	},
+
+	"extensionDescription": {
+		"message": "Pesquise imagens relacionadas ou em diferentes tamanhos no Google clicando com o botão direito em uma imagem."
+	},
+
+	"searchImage": {
+		"message": "Pesquisar imagem no Google"
+	},
+
+	"openInBackground": {
+		"message": "Abrir aba de pesquisa em segundo plano"
+	}
+}

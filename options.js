@@ -1,19 +1,23 @@
+'use strict';
+
 function saveOptions(e) {
 	browser.storage.sync.set({
-		openinbackground: document.getElementById('openinbackground').checked
+		openInBackground: document.getElementById('openInBackground').checked
 	});
 }
 
 function restoreOptions() {
 	function setCurrentChoice(result) {
-		document.getElementById('openinbackground').checked = result.openinbackground;
+		document.getElementById('openInBackground').checked = result.openInBackground;
 	}
 
+	document.getElementById('openInBackgroundLabel').textContent = browser.i18n.getMessage('openInBackground');
+
 	var getPreference = browser.storage.sync.get({
-		openinbackground: true
+		openInBackground: true
 	});
 	getPreference.then(setCurrentChoice);
 }
 
 document.addEventListener('DOMContentLoaded', restoreOptions);
-document.getElementById('openinbackground').addEventListener('click', saveOptions);
+document.getElementById('openInBackground').addEventListener('click', saveOptions);

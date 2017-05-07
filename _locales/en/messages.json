@@ -1,0 +1,17 @@
+{
+	"extensionName": {
+		"message": "Search by Image on Google"
+	},
+
+	"extensionDescription": {
+		"message": "Search for related images or in different sizes on Google by right clicking on an image."
+	},
+
+	"searchImage": {
+		"message": "Search Image on Google"
+	},
+
+	"openInBackground": {
+		"message": "Open search tab in background"
+	}
+}

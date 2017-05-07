@@ -1,9 +1,9 @@
 {
 	"manifest_version": 2,
-	"name": "Search by Image on Google",
-	"version": "1.1",
+	"name": "__MSG_extensionName__",
+	"version": "1.2",
 
-	"description": "Allows reverse image searching on Google by right clicking on an image.",
+	"description": "__MSG_extensionDescription__",
 	
 	"background": {
 		"scripts": ["background.js"]
@@ -22,6 +22,8 @@
 	"options_ui": {
 		"page": "options.html"
 	},
+
+	"default_locale": "en",
 
 	"applications": {
 		"gecko": {
