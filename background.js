@@ -1,12 +1,12 @@
 'use strict';
 
-browser.contextMenus.create({
+browser.menus.create({
 	id: 'googleimagesearch-action',
 	title: browser.i18n.getMessage('searchImage'),
 	contexts: ['image']
 });
 
-browser.contextMenus.onClicked.addListener(function(info, tab) {
+browser.menus.onClicked.addListener(function(info, tab) {
 	if (info.menuItemId === 'googleimagesearch-action') {
 		var getPreference = browser.storage.sync.get({
 			openInBackground: true
