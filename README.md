@@ -3,7 +3,7 @@ This Firefox extension adds an option to the context menu when right-clicking im
 
 ## Changelog
 
-### [1.4] – 2018/10/26
+### 1.4
 - Fixed incorrect checkbox styling
 - Updated strings
 
@@ -20,3 +20,8 @@ This Firefox extension adds an option to the context menu when right-clicking im
 
 ### [1.0] – 2017-05-05
 - Initial release
+
+[1.3]: https://github.com/Sukigu/webext-search-image-on-google/releases/tag/v1.3
+[1.2]: https://github.com/Sukigu/webext-search-image-on-google/releases/tag/v1.2
+[1.1]: https://github.com/Sukigu/webext-search-image-on-google/releases/tag/v1.1
+[1.0]: https://github.com/Sukigu/webext-search-image-on-google/releases/tag/v1.0
