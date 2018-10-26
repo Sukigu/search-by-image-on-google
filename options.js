@@ -1,23 +1,24 @@
 'use strict';
 
-function saveOptions(e) {
+function saveOptions() {
 	browser.storage.sync.set({
-		openInBackground: document.getElementById('openInBackground').checked
+		openInBackground: document.getElementById('input-open-background').checked
 	});
 }
 
 function restoreOptions() {
-	function setCurrentChoice(result) {
-		document.getElementById('openInBackground').checked = result.openInBackground;
-	}
+	const setCurrentChoice = function(result) {
+		document.getElementById('input-open-background').checked = result.openInBackground;
+	};
 
-	document.getElementById('openInBackgroundLabel').textContent = browser.i18n.getMessage('openInBackground');
+	document.getElementById('lbl-open-background').textContent = browser.i18n.getMessage('lblOpenInBackground');
 
-	var getPreference = browser.storage.sync.get({
+	const getOpenInBackgroundPref = browser.storage.sync.get({
 		openInBackground: true
 	});
-	getPreference.then(setCurrentChoice);
+	
+	getOpenInBackgroundPref.then(setCurrentChoice);
 }
 
 document.addEventListener('DOMContentLoaded', restoreOptions);
-document.getElementById('openInBackground').addEventListener('click', saveOptions);
+document.getElementById('input-open-background').addEventListener('change', saveOptions);

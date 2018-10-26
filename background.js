@@ -1,18 +1,18 @@
 'use strict';
 
 browser.menus.create({
-	id: 'googleimagesearch-action',
-	title: browser.i18n.getMessage('searchImage'),
+	id: 'action-search',
+	title: browser.i18n.getMessage('actionSearchImage'),
 	contexts: ['image']
 });
 
 browser.menus.onClicked.addListener(function(info, tab) {
-	if (info.menuItemId === 'googleimagesearch-action') {
-		var getPreference = browser.storage.sync.get({
+	if (info.menuItemId === 'action-search') {
+		const getOpenInBackgroundPref = browser.storage.sync.get({
 			openInBackground: true
 		});
 
-		getPreference.then(function(result) {
+		getOpenInBackgroundPref.then(function(result) {
 			browser.tabs.create({
 				url: 'https://www.google.com/searchbyimage?image_url=' + info.srcUrl,
 				active: !result.openInBackground,

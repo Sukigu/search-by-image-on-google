@@ -4,14 +4,14 @@
 	},
 
 	"extensionDescription": {
-		"message": "Pesquise imagens relacionadas ou em diferentes tamanhos no Google clicando com o botão direito em uma imagem."
+		"message": "Clique com o botão direito em uma imagem para pesquisar no Google imagens relacionadas ou versões em tamanhos diferentes."
 	},
 
-	"searchImage": {
+	"actionSearchImage": {
 		"message": "Pesquisar imagem no Google"
 	},
 
-	"openInBackground": {
+	"lblOpenInBackground": {
 		"message": "Abrir aba de pesquisa em segundo plano"
 	}
 }

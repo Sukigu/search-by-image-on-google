@@ -4,14 +4,14 @@
 	},
 
 	"extensionDescription": {
-		"message": "Search for related or different-sized images on Google by right clicking on an image."
+		"message": "Right click on an image to search Google for related images or versions in different sizes."
 	},
 
-	"searchImage": {
-		"message": "Search Image on Google"
+	"actionSearchImage": {
+		"message": "Search Google for Image"
 	},
 
-	"openInBackground": {
+	"lblOpenInBackground": {
 		"message": "Open search tab in background"
 	}
 }
