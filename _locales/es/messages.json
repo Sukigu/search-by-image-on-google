@@ -1,0 +1,17 @@
+{
+	"extensionName": {
+		"message": "Buscar por imagen en Google"
+	},
+
+	"extensionDescription": {
+		"message": "Clic derecho en una imagen para buscar en Google imagenes relacionadas o versiones en distinto tamaño."
+	},
+
+	"actionSearchImage": {
+		"message": "Buscar imagen en Google"
+	},
+
+	"lblOpenInBackground": {
+		"message": "Abrir pestaña de búsqueda en segundo plano"
+	}
+}
