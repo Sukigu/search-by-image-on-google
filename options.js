@@ -22,3 +22,7 @@ function restoreOptions() {
 
 document.addEventListener('DOMContentLoaded', restoreOptions);
 document.getElementById('input-open-background').addEventListener('change', saveOptions);
+
+if (!['en', 'pt', 'es'].includes(browser.i18n.getUILanguage().substring(0, 2))) {
+	document.getElementById('msg-translate').removeAttribute('style');
+}

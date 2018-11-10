@@ -3,6 +3,10 @@ This Firefox extension adds an option to the context menu when right-clicking im
 
 ## Changelog
 
+### [1.5] – 2018/11/10
+- Added Spanish translation
+- Added prompt to contribute with translations on the options page
+
 ### [1.4] – 2018/11/05
 - Fixed incorrect checkbox styling
 - Updated strings
@@ -21,6 +25,7 @@ This Firefox extension adds an option to the context menu when right-clicking im
 ### [1.0] – 2017/05/05
 - Initial release
 
+[1.5]: https://github.com/Sukigu/search-by-image-on-google/releases/tag/v1.5
 [1.4]: https://github.com/Sukigu/search-by-image-on-google/releases/tag/v1.4
 [1.3]: https://github.com/Sukigu/search-by-image-on-google/releases/tag/v1.3
 [1.2]: https://github.com/Sukigu/search-by-image-on-google/releases/tag/v1.2

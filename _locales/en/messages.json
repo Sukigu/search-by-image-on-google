@@ -8,7 +8,8 @@
 	},
 
 	"actionSearchImage": {
-		"message": "Search Google for Image"
+		"message": "Search Google for Image",
+		"description": "When translating, please try to emulate Firefox's native string in your language when you highlight some text and right click on it."
 	},
 
 	"lblOpenInBackground": {
