@@ -4,12 +4,12 @@
 	},
 
 	"extensionDescription": {
-        "message": "Натисніть правою кнопкою миші по зображенню для пошуку схожих чи інших за розміром."
+		"message": "Натисніть правою кнопкою миші по зображенню для пошуку схожих чи інших за розміром."
 	},
 
 	"actionSearchImage": {
 		"message": "Пошук по зображенню Google",
-        "description": "When translating, please try to emulate Firefox's native string in your language when you highlight some text and right click on it."
+		"description": "When translating, please try to emulate Firefox's native string in your language when you highlight some text and right click on it."
 	},
 
 	"lblOpenInBackground": {
