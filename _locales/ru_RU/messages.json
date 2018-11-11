@@ -1,0 +1,18 @@
+{
+	"extensionName": {
+		"message": "Поиск по картинке в Google"
+	},
+
+	"extensionDescription": {
+        "message": "Нажмите правой кнопкой мыши по изображению для поиска похожих или других по размеру картинок."
+	},
+
+	"actionSearchImage": {
+		"message": "Поиск по картинке в Google",
+        "description": "When translating, please try to emulate Firefox's native string in your language when you highlight some text and right click on it."
+	},
+
+	"lblOpenInBackground": {
+		"message": "Открывать вкладку в фоне"
+	}
+}
