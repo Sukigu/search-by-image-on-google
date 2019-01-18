@@ -5,6 +5,10 @@ This Firefox extension adds an option to the context menu when right-clicking im
 
 ## Changelog
 
+### [1.6] – 2019/01/18
+- Better compatibility with image URLs that contain query strings
+- The extension now respects the user's preference whether or not to open new tabs right after the current one
+
 ### [1.5.1] – 2018/11/11
 - Added Russian and Ukrainian translations
 
@@ -37,3 +41,4 @@ This Firefox extension adds an option to the context menu when right-clicking im
 [1.4]: https://github.com/Sukigu/search-by-image-on-google/releases/tag/v1.4
 [1.5]: https://github.com/Sukigu/search-by-image-on-google/releases/tag/v1.5
 [1.5.1]: https://github.com/Sukigu/search-by-image-on-google/releases/tag/v1.5.1
+[1.6]: https://github.com/Sukigu/search-by-image-on-google/releases/tag/v1.6
