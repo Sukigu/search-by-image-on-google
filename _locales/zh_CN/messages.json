@@ -1,0 +1,18 @@
+{
+	"extensionName": {
+		"message": "Google按图搜索"
+	},
+
+	"extensionDescription": {
+		"message": "在图片上右键单击以通过Google搜索相关图片或其他尺寸的版本."
+	},
+
+	"actionSearchImage": {
+		"message": "Google按图搜索",
+		"description": "When translating, please try to emulate Firefox's native string in your language when you highlight some text and right click on it."
+	},
+
+	"lblOpenInBackground": {
+		"message": "在后台打开标签页"
+	}
+}
