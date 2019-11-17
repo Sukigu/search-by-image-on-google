@@ -1,0 +1,18 @@
+{
+	"extensionName": {
+		"message": "Cerca per Immagine su Google"
+	},
+
+	"extensionDescription": {
+		"message": "Fai tasto destro sopra un'immagine per cercare su Google immagini simili o la stessa in altre dimensioni."
+	},
+
+	"actionSearchImage": {
+		"message": "Cerca su Google per Immagine",
+		"description": "When translating, please try to emulate Firefox's native string in your language when you highlight some text and right click on it."
+	},
+
+	"lblOpenInBackground": {
+		"message": "Apri scheda di ricerca in background"
+	}
+}
