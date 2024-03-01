@@ -22,7 +22,7 @@ browser.menus.onClicked.addListener(function(info, tab) {
 	// Create the search tab
 	getOpenInBackgroundPref.then(function(result) {
 		browser.tabs.create({
-			url: 'https://www.google.com/searchbyimage?client=firefox-b-d&image_url=' + sanitizedImageUrl,
+			url: 'https://lens.google.com/uploadbyurl?url=' + sanitizedImageUrl,
 			active: !result.openInBackground,
 			openerTabId: tab.id
 		});
